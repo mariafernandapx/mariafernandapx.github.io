@@ -1,4 +1,120 @@
-# Olá, me chamo Maria Fernanda ! 
-## Bem vindo ao meu perfil GitHub 👋
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome da Empresa - Skin Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-Atividade 2 de Desenvolvimento Web.
+        header {
+            background-color: #EFEA5A;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #048BA8;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #F29E4C;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #048BA8;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Skin Care Company</h1>
+    </header>
+
+    <nav>
+        <a href="index.html" rel= "prev">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <p>Descubra nossa linha de produtos formulados para atender às necessidades específicas da sua pele.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loção Hidratante</td>
+                        <td>Uma loção rica em nutrientes que hidrata profundamente, deixando a pele suave e macia.</td>
+                        <td>R$ 29,99</td>
+                    </tr>
+                    <tr>
+                        <td>Serum Anti-Envelhecimento</td>
+                        <td>Um poderoso serum com propriedades anti-envelhecimento para reduzir linhas finas e rugas.</td>
+                        <td>R$ 39,99</td>
+                    </tr>
+                    <tr>
+                        <td>Esfoliante Facial</td>
+                        <td>Esfoliante suave que remove as células mortas, revelando uma pele radiante e revitalizada.</td>
+                        <td>R$ 19,99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Skin Care Company. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
